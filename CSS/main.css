@@ -1,0 +1,71 @@
+main {
+        article {
+        width: 80vw;
+        margin: 30px auto;
+        text-align: center;
+    }
+
+    min-width: 800px;
+}
+
+section.image-gallery  {
+    display: inline;
+}
+
+.image-gallery img {
+    max-width: 100%;;
+    width: 26.666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666vw;
+    height: auto;
+}
+
+/* for sale page */
+
+.keyboard-price {
+    font-size: 2em;
+    line-height: 0.1;
+}
+
+.keyboard-sale-card h1, .keyboard-sale-card button {
+    line-height: .7;
+}
+
+.keyboard-image-column img {
+    width: 450px;
+}
+
+.keyboard-description-info {
+    text-align: left;
+    max-width: 35vw;
+    min-width: 25vw;
+}
+
+.keyboard-description-info, .keyboard-image-column {
+    margin: 0;
+    display: inline-block
+}
+
+.keyboard-description {
+    color: rgb(41, 41, 41);
+    overflow: hidden;
+}
+
+.keyboard-sale-card button {
+    border: 1px solid lightblue;
+    border-radius: 10px;
+    background-color: lightpink;
+
+    padding: 6px 9px;
+    transition: background-color 0.5s;
+}
+
+.keyboard-sale-card button:hover {
+    background-color: lightblue;
+}
+
+.keyboard-sale-card button:active {
+    background-color: red;
+}
+
+.fender-text-link {
+    color: black;
+}
